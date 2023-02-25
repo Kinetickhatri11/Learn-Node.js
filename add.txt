@@ -1,2 +1,1 @@
-This is a test file to check the connection between local file and remote file.
-This is a simple text file.
+Hello world from files
