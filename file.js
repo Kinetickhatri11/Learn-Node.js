@@ -35,3 +35,9 @@ if (!fs.existsSync('./assets')) {
 }
 
 // deleting files
+//fs.unlink('./add.txt',(err)=>{
+//     if(err){
+//         console.log(err);
+//     }
+//     console.log("file deleted");
+// })
