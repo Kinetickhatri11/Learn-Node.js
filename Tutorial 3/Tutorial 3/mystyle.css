@@ -1,0 +1,38 @@
+.background{
+    background-image: url(https://www.adobe.com/content/dam/cc/us/en/creativecloud/video/discover/how-long-does-it-take-to-make-a-movie/how-long-to-make-a-movie_fb-img_1200x800.jpg);
+    background-size:cover;
+    height:100vh;
+}
+
+h1{
+    color: #cd6547;
+}
+
+h1,p{
+    text-align: center;
+}
+.button-align{
+    text-align: center;
+}
+h1{
+    font-family:"Roboto";
+    font-size:50px;
+}
+p{
+    font-size:20px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.b{
+    background-color: #e6a97e;
+    border:0px;
+    border-radius: 10px;
+    height: 35px;
+    width: 115px;
+    margin:10px;
+}
+.bold-para{
+    font-weight: bold;
+}
