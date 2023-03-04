@@ -1,0 +1,7 @@
+sql uses:
+tables,rows and columns to store data
+
+NoSQL uses:
+collections,documents
+
+mongoDB is type of NoSQL database
