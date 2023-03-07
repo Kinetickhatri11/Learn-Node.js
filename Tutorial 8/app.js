@@ -18,6 +18,12 @@ app.use(express.static('public'));          //doing so will allow us to access a
 app.listen(3000);
 app.use(morgan('tiny'));
 
+
+app.use((req,res,next)=>{
+    console.log('in the next middleware');
+    next();
+});
+
 //'/' means root
 
 app.get('/',(req,res)=>{
@@ -41,10 +47,7 @@ app.get('/ranjan',(req,res)=>{
 
 //once the response has been sent the app.use statements wont have any effect
 
-app.use((req,res,next)=>{
-    console.log('in the next middleware');
-    next();
-});
+
 
 // 404 page
 app.use((req,res)=>{
